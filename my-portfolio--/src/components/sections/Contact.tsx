@@ -44,6 +44,7 @@ const Contact: React.FC = () => {
           name: '',
           email: '',
           projectType: '',
+          
           message: ''
         });
       })
