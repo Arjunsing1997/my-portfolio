@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
         // Handle resume download logic
         console.log('Downloading resume...');
         const link = document.createElement('a');
-        link.href = "../../../public/Arjunsing - Resume.pdf"; // path inside public folder
+        link.href = "/my-portfolio/Arjunsing - Resume.pdf"; // path inside public folder
         link.download = 'Arjunsing - Resume.pdf'; // name for the downloaded file
         link.click();
     };
