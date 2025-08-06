@@ -1,5 +1,4 @@
 import React from 'react';
-import { Skill } from '@/types';
 
 const Skills: React.FC = () => {
   const skillCategories = [
