@@ -60,10 +60,10 @@ const About: React.FC = () => {
   };
 
   return (
-    <section id="about" className="section bg-white">
-      <div className="container">
+    <section id="about" className="section bg-white dark:bg-gray-900 dark:text-white">
+      <div className="container dark:bg-gray-900 dark:text-white">
         <div className="section-header">
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title dark:bg-gray-900 dark:text-white">About Me</h2>
           <p className="section-subtitle">
             Get to know more about my professional journey
           </p>

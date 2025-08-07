@@ -47,12 +47,12 @@ const Navbar: React.FC = () => {
                 {link.label}
               </button>
             ))}
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
           </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-600 hover:text-primary-600 transition-colors"

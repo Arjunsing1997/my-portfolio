@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
 
     return (
         <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-blue-50 pt-16">
-            <div className="container">
+            <div className="container dark:bg-gray-900 dark:text-white">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Hero Content */}
                     <div className="space-y-8 animate-fade-in">
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
                     </div>
 
                     {/* Hero Image */}
-                    <div className="flex justify-center lg:justify-end animate-float">
+                    <div className="flex justify-center lg:justify-end animate-float dark:bg-gray-900 dark:text-white">
                         <div className="relative">
                             <div className="w-80 h-80 bg-gradient-to-br from-primary-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl">
                                 <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center overflow-hidden">

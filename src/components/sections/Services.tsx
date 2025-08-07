@@ -32,8 +32,8 @@ const Services: React.FC = () => {
 
   return (
     <section id="services" className="section bg-gray-50">
-      <div className="container">
-        <div className="section-header">
+      <div className="container dark:bg-gray-900 dark:text-white">
+        <div className="section-header dark:bg-gray-900 dark:text-white">
           <h2 className="section-title">My Services</h2>
           <p className="section-subtitle">
             What I offer to help bring your ideas to life

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './NavBar';
 import Footer from './Footer';
 import ScrollToTop from '../ui/ScrollToTop';
-import { ThemeProvider } from './ThemeToggle';
+import { ThemeProvider } from '@/context/ThemeContext';
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -11,7 +11,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <ThemeProvider>
-            <div className="min-h-screen bg-white">
+            <div className="min-h-screen bg-white ">
                 <Navbar />
                 <main>{children}</main>
                 <Footer />
