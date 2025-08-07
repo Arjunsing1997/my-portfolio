@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useActiveSection } from '@/hooks/useActiveSection';
-import ThemeToggle from '../ui/ThemeToggle';
+// import ThemeToggle from '../ui/ThemeToggle';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
